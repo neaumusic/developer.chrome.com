@@ -97,4 +97,14 @@ chrome.printing.submitJob(submitJobRequest, (response) => {
 });
 ```
 
+## Cloud Job Ticket
 
+A Cloud Job Ticket instructs the printer on how to handle the job. It's sent from a Chromebook to a printer or print queue. A Cloud Job Ticket contains the following sections:
+
+### CloudJobTicket
+
+#### PROPERTIES
+
+<div class="code-sections__label">version</div>
+
+<p class="code-sections__icon code-sections__icon--string">string</p>
